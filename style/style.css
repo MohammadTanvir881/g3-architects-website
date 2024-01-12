@@ -5,3 +5,75 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.shared-btn {
+    background: #FF900E;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    font-size: 1.1rem;
+    font-family: 600;
+    border-radius: 8px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 230px;
+}
+
+.web-title {
+    color: var(--Dark-01, #131313);
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.nav-menu {
+    font-size: 1.2rem;
+    /* color: var(--Dark-02, #424242); */
+    font-weight: 500;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #424242;
+    margin-left: 30px;
+    
+
+}
+
+.banner-contant * {
+    margin-bottom: 30px;
+    
+    
+}
+
+.banner-contant {
+     max-width: 800px;
+     text-align: center;
+     margin: 0 auto;
+     margin-top: 50px;
+}
+
+.banner-contant h1 {
+
+    font-size: 4rem;
+    color: var(--Dark-01, #131313);
+    font-weight: 700;
+
+}   
+
+.banner-contant p {
+    color: var(--Dark-03, #727272);
+    font-weight: 400;
+}
